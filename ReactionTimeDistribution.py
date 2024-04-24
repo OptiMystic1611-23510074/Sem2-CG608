@@ -23,7 +23,7 @@ def calculate_averages(data, coherence_delta_column, threshold, response_time_co
   return [round(low_average,5), round(high_average,5)]
 
 
-def print_results_violinplot(results, val):
+def print_results(results, val):
   #results [sub2-33][run0-1-2][low0-high1]
   for i in range(len(subs)):
     for j in range(3):
